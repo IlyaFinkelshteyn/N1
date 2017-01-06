@@ -43,8 +43,8 @@ build_script:
 test_script:
 - ps: npm test
 
-deploy_script:
-- cmd: script\grunt.cmd ci --stack --no-color
+#deploy_script:
+#- cmd: script\grunt.cmd ci --stack --no-color
 
 environment:
   matrix:
