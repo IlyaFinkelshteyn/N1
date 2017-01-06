@@ -41,7 +41,7 @@ install:
 build_script:
 - cmd: script\bootstrap.cmd
 
-#deploy_script:
+deploy_script:
 echo "skiping - cmd: script\grunt.cmd ci --stack --no-color"
 
 environment:
